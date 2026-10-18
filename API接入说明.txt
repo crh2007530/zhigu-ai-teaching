@@ -1,0 +1,41 @@
+﻿知骨：AI特色与API接入说明
+
+教学特色
+1. 围绕当前课程结构及教材参考，先给观察线索，再追问部位和方位。
+2. 把学生自己写出的辨认依据交给模型，讨论遗漏和易混点。
+3. 可提交教学图片讨论；方向或画质不清时要求补充。
+4. AI反馈、固定选择题判分、教师人工0—2分复核分别记录。
+以上为实现的交互设计，是否遵循及回答是否正确，需真实接通后逐例核对。
+
+使用位置：课程首页“AI特色与接入检测”，或AI学伴页面展开“API接入与检测”。
+步骤：
+1. 双击 本地作品/启用AI.cmd。
+2. 选择DeepSeek或千问，在命令窗口隐藏输入对应API Key。
+3. 使用 http://127.0.0.1:8790/ ，打开AI学伴。
+4. 点击“检查本机服务”，核对提供方、模型名和密钥是否已配置。
+5. 点击“检测文字API（真实调用）”；图片测试先在下方选择教学图片。
+6. 成功后查看实际回答、耗时、请求编号，可导出检测JSON。实际调用会使用少量模型额度。
+
+三个层次要分开：
+网关正常 = 本机服务可用；
+密钥已配置 = 本机启动进程中存在密钥，不代表账号有效；
+调用成功 = 收到所选模型的非空文本，不代表识图准确或教学效果已验证。
+密钥、原始图片不包含在检测报告中。报告只保留本次页面会话的测试，刷新前及时导出。
+
+预留接口
+GET /api/status：提供方、模型、密钥是否配置、文字/图片最近成功时间；不返回密钥。
+POST /api/test：JSON {"testKind":"text"}，或 {"testKind":"image","image":"data:image/...;base64,..."}。
+成功结果含 answer/provider/model/requestId/at/elapsedMs/testKind/upstreamStatus/scope。
+POST /api/ask：JSON {"question":"我的观察依据……","structureId":"humerus","mode":"feedback","image":null}。
+mode支持hint/explain/compare/feedback。图片可选，最大4MB。
+POST须同源，Content-Type为application/json。页面已负责构造这些请求。
+
+接入配置位置
+DeepSeek：AI_PROVIDER=deepseek，DEEPSEEK_API_KEY由启动脚本隐藏输入；默认模型deepseek-flash。
+千问：AI_PROVIDER=qwen，DASHSCOPE_API_KEY隐藏输入；QWEN_REGION=beijing或singapore。
+模型服务固定白名单，正式运行不要加载测试用mock-upstream.mjs。
+
+本次检测证据
+18项原有课程功能回归通过；新增API检测7项通过。
+离线/无密钥状态为本机实际验证；成功与401分支采用模拟上游，仅验证接口和UI行为。
+当前仍没有使用真实账号密钥，未产生真实模型能力或课堂效果结论。

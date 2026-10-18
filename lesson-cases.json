@@ -1,0 +1,6 @@
+[
+ {"id":"forearm","title":"前臂定位：人体左右与屏幕左右","subtitle":"先确认解剖学姿势，再解释拇指侧与小指侧。","initialId":"P14","referenceIds":["radius","ulna"],"focusNames":{"orientation":"人体方位与观察方向","location":"前臂与相邻部位","contrast":"易混结构的区分","evidence":"判断依据是否充分"},"transferMap":{"orientation":"A01","location":"P15","contrast":"C09","evidence":"C09"}},
+ {"id":"lower-leg","title":"小腿辨析：用位置和结构共同判断","subtitle":"不要只凭粗细，结合内外侧和踝部连续关系。","initialId":"P27","referenceIds":["tibia","fibula"],"focusNames":{"orientation":"人体内外侧","location":"小腿与踝部关系","contrast":"胫骨与腓骨的区分","evidence":"判断依据是否充分"},"transferMap":{"orientation":"P28","location":"A18","contrast":"C18","evidence":"C18"}},
+ {"id":"pelvis","title":"髋骨辨析：整体、部分与相邻骨","subtitle":"区分髋骨、髋骨的组成部分和骨盆整体。","initialId":"C16","referenceIds":["hip","ilium","ischium","pubis","femur"],"focusNames":{"part_whole":"整体与组成部分","location":"髋骨各部分方位","contrast":"相邻概念的区分","evidence":"判断依据是否充分"},"transferMap":{"part_whole":"A14","location":"P23","contrast":"A14","evidence":"P23"}},
+ {"id":"femoral-landmarks","title":"股骨近端：把标志放回所属骨","subtitle":"用头、颈与外侧突起的相邻关系说明依据。","initialId":"P32","referenceIds":["femoral_head","femoral_neck","greater_trochanter"],"focusNames":{"landmark":"骨性标志及相邻关系","location":"近端与内外侧","contrast":"头、颈与突起的区分","evidence":"判断依据是否充分"},"transferMap":{"landmark":"A22","location":"P33","contrast":"P31","evidence":"P33"}}
+]

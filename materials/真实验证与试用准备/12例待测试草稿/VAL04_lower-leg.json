@@ -1,0 +1,30 @@
+{
+  "format": "zhigu-ai-lesson",
+  "version": 1,
+  "curriculumVersion": "2.0",
+  "exportedAt": "2026-10-18T15:10:34.263311Z",
+  "scope": "待实际调用的教师预设验证输入，不是真实学生数据，不包含模型输出。",
+  "record": {
+    "id": "PRESET-VAL04",
+    "learnerId": "TEACHER-PRESET-ONLY",
+    "caseId": "lower-leg",
+    "createdAt": "2026-10-18T15:10:34.263311Z",
+    "phase": "draft",
+    "purpose": "api-validation",
+    "validationCaseId": "VAL04",
+    "sourceLabel": "教师预设测试输入，非真实学生",
+    "initial": {
+      "answer": "a",
+      "reason": "胫骨在小腿内侧，较粗并主要承重；腓骨较细、在外侧。我结合内外侧与承重线索判断。"
+    },
+    "probe": null,
+    "remoteId": null,
+    "probeResponse": "",
+    "revised": {
+      "answer": "",
+      "reason": ""
+    },
+    "reflection": null,
+    "transfer": null
+  }
+}

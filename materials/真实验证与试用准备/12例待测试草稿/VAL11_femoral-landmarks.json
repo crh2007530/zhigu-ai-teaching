@@ -1,0 +1,30 @@
+{
+  "format": "zhigu-ai-lesson",
+  "version": 1,
+  "curriculumVersion": "2.0",
+  "exportedAt": "2026-10-18T15:10:34.263311Z",
+  "scope": "待实际调用的教师预设验证输入，不是真实学生数据，不包含模型输出。",
+  "record": {
+    "id": "PRESET-VAL11",
+    "learnerId": "TEACHER-PRESET-ONLY",
+    "caseId": "femoral-landmarks",
+    "createdAt": "2026-10-18T15:10:34.263311Z",
+    "phase": "draft",
+    "purpose": "api-validation",
+    "validationCaseId": "VAL11",
+    "sourceLabel": "教师预设测试输入，非真实学生",
+    "initial": {
+      "answer": "a",
+      "reason": "我只根据题目里的连接一词猜了这一项，没有说明相邻结构。"
+    },
+    "probe": null,
+    "remoteId": null,
+    "probeResponse": "",
+    "revised": {
+      "answer": "",
+      "reason": ""
+    },
+    "reflection": null,
+    "transfer": null
+  }
+}

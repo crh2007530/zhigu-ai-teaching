@@ -1,0 +1,507 @@
+{
+  "source": "OpenStax Anatomy and Physiology 2e",
+  "verifiedOn": "2026-10-18",
+  "license": "CC BY-NC-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "licenseVerifiedAt": "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-2-bones-of-the-upper-limb",
+  "requiredAttribution": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction",
+  "reuseNotes": "现行官方页注明非商业使用、署名、衍生作品同许可。每个含本教材内容的数字页面视图应显示教材免费访问链接。商业使用另需许可。OpenStax及Rice商标、logo和封面不在此许可内。",
+  "reviewStatus": "已按官方章节与图题核对来源；未声称医学教师审核。",
+  "imagePolicy": "原英文标签全部保留。无去字、镜像、重绘、AI生成或解剖内容修改。",
+  "assets": [
+    {
+      "id": "skull-anterior",
+      "file": "skull-anterior.jpg",
+      "path": "assets/skull-anterior.jpg",
+      "originalUrl": "https://openstax.org/apps/archive/20260604.144757/resources/2b992922f28d116ef649105fc6d93b2880df5084",
+      "chapterUrl": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-2-the-skull",
+      "figure": "Figure 7.4",
+      "title": "Anterior View of Skull",
+      "titleZh": "颅骨前观",
+      "creator": "OpenStax",
+      "book": "Anatomy and Physiology 2e",
+      "license": "CC BY-NC-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "attribution": "OpenStax, Anatomy and Physiology 2e, Figure 7.4. Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction",
+      "terms": [
+        "颅骨",
+        "额骨",
+        "下颌骨"
+      ],
+      "notes": "前观；顶骨辨认请结合侧观。",
+      "labelLanguage": "en",
+      "usage": "学习与解析；含原教材英文标签，不用于无标签识图自测。",
+      "modification": "无修改；原始图像文件直接下载。",
+      "width": 2437,
+      "height": 2062,
+      "format": "JPEG",
+      "bytes": 1262076,
+      "sha256": "7eecc087c4660c09ec2e145fe9daf051aa23f6b48e9591fe0142036497bbce8e"
+    },
+    {
+      "id": "skull-lateral",
+      "file": "skull-lateral.jpg",
+      "path": "assets/skull-lateral.jpg",
+      "originalUrl": "https://openstax.org/apps/archive/20260604.144757/resources/3472f5e5dae7c27e5804994fecb91df8407342aa",
+      "chapterUrl": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-2-the-skull",
+      "figure": "Figure 7.5",
+      "title": "Lateral View of Skull",
+      "titleZh": "颅骨侧观",
+      "creator": "OpenStax",
+      "book": "Anatomy and Physiology 2e",
+      "license": "CC BY-NC-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "attribution": "OpenStax, Anatomy and Physiology 2e, Figure 7.5. Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction",
+      "terms": [
+        "颅骨",
+        "下颌骨",
+        "额骨",
+        "顶骨"
+      ],
+      "notes": "侧观；不要镜像，图中左右不等于人体左右。",
+      "labelLanguage": "en",
+      "usage": "学习与解析；含原教材英文标签，不用于无标签识图自测。",
+      "modification": "无修改；原始图像文件直接下载。",
+      "width": 2450,
+      "height": 1681,
+      "format": "JPEG",
+      "bytes": 1107093,
+      "sha256": "6c4c4d3a09d782416d92ad33ac45c48e33d75df7582955992571020977d1eea2"
+    },
+    {
+      "id": "vertebral-column",
+      "file": "vertebral-column.jpg",
+      "path": "assets/vertebral-column.jpg",
+      "originalUrl": "https://openstax.org/apps/archive/20260604.144757/resources/408a4ed7f3a629c9a7e2e08b8544ca3d5ff055c3",
+      "chapterUrl": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-3-the-vertebral-column",
+      "figure": "Figure 7.20",
+      "title": "Vertebral Column",
+      "titleZh": "脊柱分区",
+      "creator": "OpenStax",
+      "book": "Anatomy and Physiology 2e",
+      "license": "CC BY-NC-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "attribution": "OpenStax, Anatomy and Physiology 2e, Figure 7.20. Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction",
+      "terms": [
+        "颈椎",
+        "胸椎",
+        "腰椎",
+        "骶骨"
+      ],
+      "notes": "分区总览，适合定位区域，不适合辨认单个椎骨细节。",
+      "labelLanguage": "en",
+      "usage": "学习与解析；含原教材英文标签，不用于无标签识图自测。",
+      "modification": "无修改；原始图像文件直接下载。",
+      "width": 1092,
+      "height": 1042,
+      "format": "JPEG",
+      "bytes": 201331,
+      "sha256": "da7ed5fc7e9e72a223bedf69eb186f03b2f50df1bf9b7d80a54238a7616b9ab1"
+    },
+    {
+      "id": "thoracic-cage",
+      "file": "thoracic-cage.jpg",
+      "path": "assets/thoracic-cage.jpg",
+      "originalUrl": "https://openstax.org/apps/archive/20260604.144757/resources/e1cbee95a6b2d98480a003a7bc69809a859173d9",
+      "chapterUrl": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-4-the-thoracic-cage",
+      "figure": "Figure 7.32",
+      "title": "Thoracic Cage",
+      "titleZh": "胸廓与胸骨",
+      "creator": "OpenStax",
+      "book": "Anatomy and Physiology 2e",
+      "license": "CC BY-NC-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "attribution": "OpenStax, Anatomy and Physiology 2e, Figure 7.32. Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction",
+      "terms": [
+        "胸骨",
+        "肋骨"
+      ],
+      "notes": "复合图；肋软骨与骨性肋骨应区别。",
+      "labelLanguage": "en",
+      "usage": "学习与解析；含原教材英文标签，不用于无标签识图自测。",
+      "modification": "无修改；原始图像文件直接下载。",
+      "width": 1146,
+      "height": 678,
+      "format": "JPEG",
+      "bytes": 290973,
+      "sha256": "e96908d8ba6c22e50e5dab87ecc1012b64598bdb7fa82412237a5903a114c771"
+    },
+    {
+      "id": "pectoral-girdle",
+      "file": "pectoral-girdle.jpg",
+      "path": "assets/pectoral-girdle.jpg",
+      "originalUrl": "https://openstax.org/apps/archive/20260604.144757/resources/80224ef3967f0d62672cd00db90e8b15ffb1dfff",
+      "chapterUrl": "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-1-the-pectoral-girdle",
+      "figure": "Figure 8.3",
+      "title": "Pectoral Girdle",
+      "titleZh": "肩带",
+      "creator": "OpenStax",
+      "book": "Anatomy and Physiology 2e",
+      "license": "CC BY-NC-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "attribution": "OpenStax, Anatomy and Physiology 2e, Figure 8.3. Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction",
+      "terms": [
+        "锁骨",
+        "肩胛骨",
+        "肩峰"
+      ],
+      "notes": "肩带整体关系；肩峰细节结合肩胛骨图。",
+      "labelLanguage": "en",
+      "usage": "学习与解析；含原教材英文标签，不用于无标签识图自测。",
+      "modification": "无修改；原始图像文件直接下载。",
+      "width": 985,
+      "height": 1358,
+      "format": "JPEG",
+      "bytes": 393709,
+      "sha256": "170537b6af4bbd41b2180ba057887964af59e03fb80e942fe44f1d2eafc2844c"
+    },
+    {
+      "id": "scapula",
+      "file": "scapula.jpg",
+      "path": "assets/scapula.jpg",
+      "originalUrl": "https://openstax.org/apps/archive/20260604.144757/resources/c0c428b8a836313f67005105fba27d82101e2eac",
+      "chapterUrl": "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-1-the-pectoral-girdle",
+      "figure": "Figure 8.4",
+      "title": "Scapula",
+      "titleZh": "肩胛骨",
+      "creator": "OpenStax",
+      "book": "Anatomy and Physiology 2e",
+      "license": "CC BY-NC-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "attribution": "OpenStax, Anatomy and Physiology 2e, Figure 8.4. Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction",
+      "terms": [
+        "肩胛骨",
+        "肩峰"
+      ],
+      "notes": "包含前面与后面；不同面热点坐标不可通用。",
+      "labelLanguage": "en",
+      "usage": "学习与解析；含原教材英文标签，不用于无标签识图自测。",
+      "modification": "无修改；原始图像文件直接下载。",
+      "width": 972,
+      "height": 641,
+      "format": "JPEG",
+      "bytes": 222092,
+      "sha256": "9468c9e0e4c07a9c16a44c6e6b717e34a6f3bd4181518f1ac6170fad065b61b9"
+    },
+    {
+      "id": "humerus",
+      "file": "humerus.jpg",
+      "path": "assets/humerus.jpg",
+      "originalUrl": "https://openstax.org/apps/archive/20260604.144757/resources/5f70593eab8f8ab3ebf4aa75fc37d72225c0a95d",
+      "chapterUrl": "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-2-bones-of-the-upper-limb",
+      "figure": "Figure 8.5",
+      "title": "Humerus and Elbow Joint",
+      "titleZh": "肱骨与肘关节",
+      "creator": "OpenStax",
+      "book": "Anatomy and Physiology 2e",
+      "license": "CC BY-NC-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "attribution": "OpenStax, Anatomy and Physiology 2e, Figure 8.5. Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction",
+      "terms": [
+        "肱骨"
+      ],
+      "notes": "前/后观复合图；鹰嘴请使用前臂图。",
+      "labelLanguage": "en",
+      "usage": "学习与解析；含原教材英文标签，不用于无标签识图自测。",
+      "modification": "无修改；原始图像文件直接下载。",
+      "width": 676,
+      "height": 853,
+      "format": "JPEG",
+      "bytes": 224958,
+      "sha256": "635c9e6bbea1237c28d81fb3808fd8e8a09ce4bbfb4d9b669e95da30fb43a175"
+    },
+    {
+      "id": "forearm",
+      "file": "forearm.jpg",
+      "path": "assets/forearm.jpg",
+      "originalUrl": "https://openstax.org/apps/archive/20260604.144757/resources/b9c3c45f968f9af4e3706ef9ac442d49ea0e4871",
+      "chapterUrl": "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-2-bones-of-the-upper-limb",
+      "figure": "Figure 8.6",
+      "title": "Ulna and Radius",
+      "titleZh": "尺骨与桡骨",
+      "creator": "OpenStax",
+      "book": "Anatomy and Physiology 2e",
+      "license": "CC BY-NC-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "attribution": "OpenStax, Anatomy and Physiology 2e, Figure 8.6. Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction",
+      "terms": [
+        "桡骨",
+        "尺骨",
+        "鹰嘴"
+      ],
+      "notes": "解剖学姿势下桡骨位于外侧拇指侧；勿以屏幕左右直接代替内外侧。",
+      "labelLanguage": "en",
+      "usage": "学习与解析；含原教材英文标签，不用于无标签识图自测。",
+      "modification": "无修改；原始图像文件直接下载。",
+      "width": 1271,
+      "height": 1720,
+      "format": "JPEG",
+      "bytes": 531187,
+      "sha256": "43a0a941123d0324e04d4690e9d4bf1651a66d51b2a2cf52c1bd563e7e4b3dca"
+    },
+    {
+      "id": "hand",
+      "file": "hand.jpg",
+      "path": "assets/hand.jpg",
+      "originalUrl": "https://openstax.org/apps/archive/20260604.144757/resources/541c7cf2586e9daaea40767bbc68011fdb8573b1",
+      "chapterUrl": "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-2-bones-of-the-upper-limb",
+      "figure": "Figure 8.7",
+      "title": "Bones of the Wrist and Hand",
+      "titleZh": "腕与手骨",
+      "creator": "OpenStax",
+      "book": "Anatomy and Physiology 2e",
+      "license": "CC BY-NC-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "attribution": "OpenStax, Anatomy and Physiology 2e, Figure 8.7. Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction",
+      "terms": [
+        "腕骨",
+        "掌骨",
+        "指骨"
+      ],
+      "notes": "前/后观；指骨指手指骨，不能与足趾骨混用。",
+      "labelLanguage": "en",
+      "usage": "学习与解析；含原教材英文标签，不用于无标签识图自测。",
+      "modification": "无修改；原始图像文件直接下载。",
+      "width": 1954,
+      "height": 1573,
+      "format": "JPEG",
+      "bytes": 866657,
+      "sha256": "0b3da03ee853cdf675bb9cfd38b30716bb221284236b401cc2228eb7cbca500c"
+    },
+    {
+      "id": "hip-bone",
+      "file": "hip-bone.jpg",
+      "path": "assets/hip-bone.jpg",
+      "originalUrl": "https://openstax.org/apps/archive/20260604.144757/resources/09675fd7c72116ca71747d723ec61e999098b3d1",
+      "chapterUrl": "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-3-the-pelvic-girdle-and-pelvis",
+      "figure": "Figure 8.13",
+      "title": "The Hip Bone",
+      "titleZh": "髋骨分区",
+      "creator": "OpenStax",
+      "book": "Anatomy and Physiology 2e",
+      "license": "CC BY-NC-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "attribution": "OpenStax, Anatomy and Physiology 2e, Figure 8.13. Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction",
+      "terms": [
+        "髋骨",
+        "髂骨",
+        "坐骨",
+        "耻骨"
+      ],
+      "notes": "成人髋骨由三部分融合；分区颜色为教材教学着色。",
+      "labelLanguage": "en",
+      "usage": "学习与解析；含原教材英文标签，不用于无标签识图自测。",
+      "modification": "无修改；原始图像文件直接下载。",
+      "width": 974,
+      "height": 700,
+      "format": "JPEG",
+      "bytes": 324909,
+      "sha256": "e052dabc0e924acb1969edceb0b76d6c0db4f721a0c2f9f9fce627662f8d8dbc"
+    },
+    {
+      "id": "femur-patella",
+      "file": "femur-patella.jpg",
+      "path": "assets/femur-patella.jpg",
+      "originalUrl": "https://openstax.org/apps/archive/20260604.144757/resources/6e59c1693b3349bffa2c27ac7a2e29f889a08edc",
+      "chapterUrl": "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-4-bones-of-the-lower-limb",
+      "figure": "Figure 8.16",
+      "title": "Femur and Patella",
+      "titleZh": "股骨与髌骨",
+      "creator": "OpenStax",
+      "book": "Anatomy and Physiology 2e",
+      "license": "CC BY-NC-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "attribution": "OpenStax, Anatomy and Physiology 2e, Figure 8.16. Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction",
+      "terms": [
+        "股骨",
+        "髌骨",
+        "股骨头",
+        "股骨颈",
+        "大转子"
+      ],
+      "notes": "前/后观与髌骨局部图；股骨头朝内侧，大转子位于近端外侧。",
+      "labelLanguage": "en",
+      "usage": "学习与解析；含原教材英文标签，不用于无标签识图自测。",
+      "modification": "无修改；原始图像文件直接下载。",
+      "width": 824,
+      "height": 1289,
+      "format": "JPEG",
+      "bytes": 370779,
+      "sha256": "c31f74c3e1c434be2edb1a87024bd9a15ab2e36a278071dd109def92ced4435c"
+    },
+    {
+      "id": "tibia-fibula",
+      "file": "tibia-fibula.jpg",
+      "path": "assets/tibia-fibula.jpg",
+      "originalUrl": "https://openstax.org/apps/archive/20260604.144757/resources/1d834f37b5d1d87f46a30ed1ce9e17f348be7905",
+      "chapterUrl": "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-4-bones-of-the-lower-limb",
+      "figure": "Figure 8.18",
+      "title": "Tibia and Fibula",
+      "titleZh": "胫骨与腓骨",
+      "creator": "OpenStax",
+      "book": "Anatomy and Physiology 2e",
+      "license": "CC BY-NC-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "attribution": "OpenStax, Anatomy and Physiology 2e, Figure 8.18. Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction",
+      "terms": [
+        "胫骨",
+        "腓骨",
+        "胫骨粗隆",
+        "内踝",
+        "外踝"
+      ],
+      "notes": "前/后观；胫骨粗隆位于近端前面；内踝属于胫骨，外踝属于腓骨。",
+      "labelLanguage": "en",
+      "usage": "学习与解析；含原教材英文标签，不用于无标签识图自测。",
+      "modification": "无修改；原始图像文件直接下载。",
+      "width": 1698,
+      "height": 2100,
+      "format": "JPEG",
+      "bytes": 747115,
+      "sha256": "e0fc60967842c8541a84d5bf7e3dce64661063fedbd3d084cffea9794f48cf93"
+    },
+    {
+      "id": "foot",
+      "file": "foot.jpg",
+      "path": "assets/foot.jpg",
+      "originalUrl": "https://openstax.org/apps/archive/20260604.144757/resources/f18d5fb174826160f664e435a126c47e94f2c576",
+      "chapterUrl": "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-4-bones-of-the-lower-limb",
+      "figure": "Figure 8.19",
+      "title": "Bones of the Foot",
+      "titleZh": "足骨",
+      "creator": "OpenStax",
+      "book": "Anatomy and Physiology 2e",
+      "license": "CC BY-NC-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "attribution": "OpenStax, Anatomy and Physiology 2e, Figure 8.19. Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction",
+      "terms": [
+        "跗骨",
+        "跖骨"
+      ],
+      "notes": "含上面、内侧、外侧视图；不要把足趾骨当作跖骨。",
+      "labelLanguage": "en",
+      "usage": "学习与解析；含原教材英文标签，不用于无标签识图自测。",
+      "modification": "无修改；原始图像文件直接下载。",
+      "width": 2232,
+      "height": 1640,
+      "format": "JPEG",
+      "bytes": 1011550,
+      "sha256": "9d6210bf1ac41081e8dd14177cdeb72da152e9aaefea494c0120bdd727ef9b2e"
+    }
+  ],
+  "termToAssets": {
+    "颅骨": [
+      "skull-anterior",
+      "skull-lateral"
+    ],
+    "额骨": [
+      "skull-anterior",
+      "skull-lateral"
+    ],
+    "下颌骨": [
+      "skull-anterior",
+      "skull-lateral"
+    ],
+    "顶骨": [
+      "skull-lateral"
+    ],
+    "颈椎": [
+      "vertebral-column"
+    ],
+    "胸椎": [
+      "vertebral-column"
+    ],
+    "腰椎": [
+      "vertebral-column"
+    ],
+    "骶骨": [
+      "vertebral-column"
+    ],
+    "胸骨": [
+      "thoracic-cage"
+    ],
+    "肋骨": [
+      "thoracic-cage"
+    ],
+    "锁骨": [
+      "pectoral-girdle"
+    ],
+    "肩胛骨": [
+      "pectoral-girdle",
+      "scapula"
+    ],
+    "肩峰": [
+      "pectoral-girdle",
+      "scapula"
+    ],
+    "肱骨": [
+      "humerus"
+    ],
+    "桡骨": [
+      "forearm"
+    ],
+    "尺骨": [
+      "forearm"
+    ],
+    "鹰嘴": [
+      "forearm"
+    ],
+    "腕骨": [
+      "hand"
+    ],
+    "掌骨": [
+      "hand"
+    ],
+    "指骨": [
+      "hand"
+    ],
+    "髋骨": [
+      "hip-bone"
+    ],
+    "髂骨": [
+      "hip-bone"
+    ],
+    "坐骨": [
+      "hip-bone"
+    ],
+    "耻骨": [
+      "hip-bone"
+    ],
+    "股骨": [
+      "femur-patella"
+    ],
+    "髌骨": [
+      "femur-patella"
+    ],
+    "股骨头": [
+      "femur-patella"
+    ],
+    "股骨颈": [
+      "femur-patella"
+    ],
+    "大转子": [
+      "femur-patella"
+    ],
+    "胫骨": [
+      "tibia-fibula"
+    ],
+    "腓骨": [
+      "tibia-fibula"
+    ],
+    "胫骨粗隆": [
+      "tibia-fibula"
+    ],
+    "内踝": [
+      "tibia-fibula"
+    ],
+    "外踝": [
+      "tibia-fibula"
+    ],
+    "跗骨": [
+      "foot"
+    ],
+    "跖骨": [
+      "foot"
+    ]
+  }
+}

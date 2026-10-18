@@ -1,0 +1,21 @@
+{
+  "format": "zhigu-classroom-pilot-plan",
+  "version": 1,
+  "status": "not_run",
+  "teacher": null,
+  "course": null,
+  "date": null,
+  "realModelUsed": null,
+  "model": null,
+  "participants": null,
+  "preParticipants": null,
+  "postParticipants": null,
+  "pairedParticipants": null,
+  "retentionParticipants": null,
+  "actualIntervalDays": null,
+  "completedLessons": null,
+  "missingReasons": null,
+  "records": [],
+  "teacherIssues": [],
+  "scope": "仅记录实际发生的试用。预设验证不计入真实学生人数，未执行字段保留null。"
+}
