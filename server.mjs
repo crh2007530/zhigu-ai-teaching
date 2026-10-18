@@ -14,6 +14,8 @@ const C=JSON.parse(await readFile(path.join(root,'curriculum.json'),'utf8'));
 const tutor=await createTutor({root:pathToFileURL(root+path.sep),C,provider,model,key,endpoint:['deepseek','qwen'].includes(provider)?endpoints[provider==='deepseek'?'deepseek':region]:undefined,onSuccess:info=>{lastSuccess.text=info;}});
 const files={'/':['index.html','text/html'],'/index.html':['index.html','text/html'],'/styles.css':['styles.css','text/css'],'/app.js':['app.js','text/javascript'],'/data.js':['data.js','text/javascript'],'/curriculum.json':['curriculum.json','application/json'],'/skeleton.png':['skeleton.png','image/png'],'/assets/来源与许可.json':['assets/来源与许可.json','application/json']};
 for(const a of C.assets)files['/assets/'+a.file]=['assets/'+a.file,'image/jpeg'];
+files['/runtime-mode.js']=['runtime-mode.js','text/javascript'];
+files['/public-mode.js']=['public-mode.js','text/javascript'];
 files['/ai-diagnostics.js']=['ai-diagnostics.js','text/javascript'];
 files['/ai-lesson.js']=['ai-lesson.js','text/javascript'];
 files['/lesson-cases.json']=['lesson-cases.json','application/json'];
