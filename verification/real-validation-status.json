@@ -1,5 +1,11 @@
 {
   "version": "20261019-compete1",
+  "eligibility": {
+    "registration": "user-confirmed-registered",
+    "teacherMember": "user-confirmed-present",
+    "reportedOn": "2026-10-19",
+    "officialSignedFormsIncluded": false
+  },
   "connectivity": {
     "status": "user-reported-success",
     "evidence": "用户在当前对话明确回复“文字API检测成功”；尚未单独取得连通检测JSON。"
@@ -9,5 +15,5 @@
   "realStudentPilotCompleted": false,
   "records": [],
   "notIncluded": [],
-  "scope": "真实接口预设验证与真实学生试用分别报告。导出记录不独立认证调用来源和身份，知识及教学质量仍待教师复核。"
+  "scope": "报名、教师成员及文字连通由本人确认。真实接口预设验证与真实学生试用分别报告。导出记录不独立认证调用来源和身份，知识及教学质量仍待教师复核。"
 }
