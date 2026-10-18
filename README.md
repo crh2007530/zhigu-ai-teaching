@@ -34,3 +34,7 @@ GitHub Pages托管静态网页。在线版支持每位访问者填写自己的De
 教材及13张插图：OpenStax, *Anatomy and Physiology 2e*。Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction 。插图及相关改编教学内容按 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 非商业共享，保留原英文标签、署名及相同许可。逐图链接、哈希与许可见 `assets/来源与许可.json`。
 
 无标签骨骼原图：Mikael Häggström，公有领域；来源见 `THIRD_PARTY_NOTICES.md`。软件源码开放用于本次作品展示；未声明额外开源代码许可。正式提交前须补齐真实身份和官方签字材料。
+
+## 界面更新
+
+2026-10-19：蓝白科技风界面，深蓝导航、分层内容卡片、直接进入伴学的快捷入口。保留个人密钥、练习及档案功能。320–1600像素布局检查见 `verification/interface-layout-checks.json`。既有视频与PPT保留旧界面的功能演示。
