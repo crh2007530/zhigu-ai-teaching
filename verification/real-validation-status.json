@@ -1,0 +1,13 @@
+{
+  "version": "20261019-compete1",
+  "connectivity": {
+    "status": "user-reported-success",
+    "evidence": "用户在当前对话明确回复“文字API检测成功”；尚未单独取得连通检测JSON。"
+  },
+  "archivedPresetTeachingRecords": 0,
+  "teachingModelContentReviewedByTeacher": false,
+  "realStudentPilotCompleted": false,
+  "records": [],
+  "notIncluded": [],
+  "scope": "真实接口预设验证与真实学生试用分别报告。导出记录不独立认证调用来源和身份，知识及教学质量仍待教师复核。"
+}
