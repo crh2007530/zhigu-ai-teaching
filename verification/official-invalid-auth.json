@@ -1,0 +1,8 @@
+{
+  "status": 401,
+  "cors": {
+    "access-control-allow-credentials": "true",
+    "access-control-allow-origin": "https://crh2007530.github.io"
+  },
+  "scope": "只使用明确无效的占位凭据验证官方鉴权失败及跨域响应；没有真实模型成功调用。"
+}
