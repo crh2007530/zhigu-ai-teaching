@@ -51,10 +51,10 @@
  new ResizeObserver(()=>transform()).observe(viewport);renderAtlas();transform();
  const syncAtlas=()=>{atlas.hidden=!['lesson','learn'].includes(main.dataset.view);if(!atlas.hidden)requestAnimationFrame(transform);};document.addEventListener('zhigu:tab',syncAtlas);syncAtlas();
  const notice=document.getElementById('hosted-notice'),setup=document.getElementById('online-ai-setup');
- if(notice){const p=notice.querySelector('p');if(p)p.textContent='无需登录即可学习；记录保存在当前浏览器，换设备前请导出备份。';}
+ if(notice){const p=notice.querySelector('p');if(p)p.textContent='无需登录即可学习；记录保存在当前浏览器，换设备前请导出备份。';notice.hidden=true;}
  if(setup){
-  setup.open=location.hash==='#connect';
-  const connect=document.createElement('button');connect.className='premium-connect';connect.textContent='连接个人 AI ↗';connect.onclick=()=>{setup.open=true;setup.scrollIntoView({behavior:'smooth',block:'start'});};workflow?.append(connect);
+  setup.open=location.hash==='#connect';setup.hidden=!setup.open;
+  const connect=document.createElement('button');connect.className='premium-connect';connect.textContent='连接个人 AI ↗';connect.onclick=()=>{setup.hidden=false;setup.open=true;setup.scrollIntoView({behavior:'smooth',block:'start'});};workflow?.append(connect);const syncConnection=()=>{const aiView=['lesson','ai'].includes(main.dataset.view);connect.hidden=!aiView;setup.hidden=main.dataset.view!=='ai';document.getElementById('gateway-state').hidden=!aiView;};document.addEventListener('zhigu:tab',syncConnection);syncConnection();if(location.hash==='#connect'){setup.hidden=false;setup.open=true;}
  }
  const note=document.createElement('p');note.className='premium-footer-note';note.textContent='ZHIGU  /  ANATOMY & INTELLIGENT LEARNING';document.querySelector('footer')?.before(note);
 })();

@@ -53,7 +53,7 @@
   if(!hosted)return nativeFetch(url,options);
   if(url==='/api/status')return response(200,status());
   if(!['/api/tutor','/api/ask','/api/test'].includes(url))return response(404,{error:'未知接口。'});
-  if(!config)return response(503,{error:'请先在页面顶部“填写自己的API密钥”中启用本次密钥。密钥仅在当前页面临时使用。'});
+  if(!config)return response(503,{error:'请先点击“连接个人 AI”，填写并启用本次密钥。密钥仅在当前页面临时使用。'});
   let d;try{d=JSON.parse(options.body);}catch{return response(400,{error:'请求格式不正确。'});}
   try{if(url==='/api/tutor'){const r=await tutor(d);return response(r.status,r.body);}return await ask(d,url==='/api/test');}
   catch(err){return response(502,{error:err.message==='密钥已清除或切换，本次请求已取消。'?err.message:err.message?.startsWith('无法连接官方')||err.message?.startsWith('请求已取消')?err.message:'未获得可用的模型反馈，请检查网络与模型设置后重试。'});}
